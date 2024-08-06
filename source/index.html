@@ -86,17 +86,17 @@
     <section class="example">
       <h2 class="example__title">Живой пример</h2>
       <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-      <div class="example__list">
-        <dl class="example__description">
-          <dt class="example__value">5 КГ</dt>
-          <dd class="example__option">Снижение веса</dd>
-        </dl>
-        <dl class="example__description">
-          <dt class="example__value">60 дней</dt>
-          <dd class="example__option">Затрачено времени</dd>
-        </dl>
+      <dl class="example__list">
+        <div class="example__description">
+          <dt class="example__option">Снижение веса</dt>
+          <dd class="example__value">5 КГ</dd>
+        </div>
+        <div class="example__description">
+          <dt class="example__option">Затрачено времени</dt>
+          <dd class="example__value">60 дней</dd>
+        </div>
         <p class="example__price">Затраты на питание: <span>>15 000</span> РУБ.</p>
-      </div>
+      </dl>
       <img class="example__before" src="#" alt="Толстый кот" width="200" height="200">
       <img class="example__after" src="#" alt="Худой кот" width="200" height="200">
       <div class="example__range-bar">
@@ -108,12 +108,10 @@
       <div class="address__wrapper">
         <p class="address__lead">Приглашаем к сотрудничеству диллеров!</p>
         <address class="address__info">
-          <pre>
-            ул. Большая
-            Конюшенная, д. 19/8
+          ул. Большая
+          Конюшенная, д. 19/8
 
-            Санкт-Петербург
-            </pre>
+          Санкт-Петербург
         </address>
       </div>
       <div class="map"></div>
@@ -123,26 +121,24 @@
     <a class="main-footer__logo logo" href="index.html">
       <img class="logo__text" src="#" width="200" height="200" alt="Текст логотипа">
     </a>
-    <div class="main-footer__social social">
-      <ul class="social__list">
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">Вконтакте</span>
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">Youtube</span>
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">Telegram</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <a class="main-footer__academy-link academy-link" href="#">
+    <ul class="main-footer__social social">
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">Youtube</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">Telegram</span>
+        </a>
+      </li>
+    </ul>
+    <a class="main-footer__academy-link academy-link" href="https://htmlacademy.ru/intensive/adaptive">
       <span class="academy-link__text">HTML Academy</span>
       <img class="academy-link__logo" src="#" alt="Логотип академии" width="200" height="200">
     </a>
