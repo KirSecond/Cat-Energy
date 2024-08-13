@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer="defer"></script>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body class="page__body">
@@ -37,7 +37,7 @@
     </nav>
   </header>
   <main class="main-container">
-    <h1 class="catalog-title">Каталог продукции</h1>
+    <h1 class="catalog-title title">Каталог продукции</h1>
     <section class="catalog">
       <h2 class="visually-hidden">Список товаров</h2>
       <ul class="catalog__list">
@@ -219,7 +219,7 @@
         <li class="catalog__item show-more">
           <h2 class="show-more__title">Показать еще 100500 товаров</h2>
           <p class="show-more__text">На самом деле вкусов гораздо больше!</p>
-          <a class="show-more__button button" href="#">Показать все</a>
+          <a class="show-more__button button button--show-more" href="#">Показать все</a>
         </li>
       </ul>
     </section>
@@ -270,10 +270,10 @@
       <form class="subscribe__form" action="https://echo.htmlacademy.ru" method="post" name="subscribe-form">
         <label class="visually-hidden" for="subscribe-email">Введите e-mail</label>
         <input class="subscribe__input" type="email" id="subscribe-email" name="subscribe-input" placeholder="kuklachev@gmail.com">
-        <button class="subscribe__button" type="submit">Подписаться</button>
+        <button class="subscribe__button button" type="submit">Подписаться</button>
       </form>
     </section>
-    <section class="address address--index">
+    <section class="address">
       <h2 class="visually-hidden">Наши данные</h2>
       <div class="address__wrapper">
         <p class="address__lead">Приглашаем к сотрудничеству диллеров!</p>

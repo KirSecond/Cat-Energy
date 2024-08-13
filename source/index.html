@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer="defer"></script>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body class="page__body">
-  <header class="main-header">
-    <nav class="main-nav">
+  <header class="main-header main-header--index">
+    <nav class="main-nav main-nav--index">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Отобразить навигацию</span>
       </button>
@@ -63,8 +63,8 @@
       </ul>
     </section>
     <section class="guides">
-      <h2 class="guides__title">Как это работает</h2>
-      <ul class="guides__list guides-list">
+      <h2 class="guides__title title">Как это работает</h2>
+      <ul class="guides__list">
         <li class="guides__item guides__item--leaf">
           <span class="guides__text">Функциональное питание
             содержит только полезные
@@ -90,8 +90,8 @@
       </ul>
     </section>
     <section class="example">
-      <h2 class="example__title">Живой пример</h2>
-      <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+      <h2 class="example__title title">Живой пример</h2>
+      <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <dl class="example__list">
         <div class="example__description">
           <dt class="example__option">Снижение веса</dt>
@@ -102,17 +102,19 @@
           <dd class="example__value">60 дней</dd>
         </div>
       </dl>
-      <p class="example__price">Затраты на питание: <span>>15 000</span> РУБ.</p>
-      <picture>
-        <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/cat-before-tablet@1x.png 1x, images/cat-before-tablet@2x.png 2x">
-        <img class="example__before" src="images/cat-before-mobile@1x.png" alt="Толстый кот" width="280" height="256" srcset="images/cat-before-mobile@2x.png 2x">
-      </picture>
-      <picture>
-        <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/cat-after-tablet@1x.png 1x, images/cat-after-tablet@2x.png 2x">
-        <img class="example__after" src="images/cat-after-mobile@1x.png" alt="Худой кот" width="280" height="256" srcset="images/cat-after-mobile@2x.png 2x">
-      </picture>
-      <div class="example__range-bar">
-        <button class="example__range-toggle" aria-label="Переключение картинок с котами до и после" type="button"></button>
+      <p class="example__price">Затраты на питание: <span>15 000</span> РУБ.</p>
+      <div class="range-container">
+        <picture>
+          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/cat-before-tablet@1x.png 1x, images/cat-before-tablet@2x.png 2x">
+          <img class="example__before" src="images/cat-before-mobile@1x.png" alt="Толстый кот" width="280" height="256" srcset="images/cat-before-mobile@2x.png 2x">
+        </picture>
+        <picture>
+          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/cat-after-tablet@1x.png 1x, images/cat-after-tablet@2x.png 2x">
+          <img class="example__after" src="images/cat-after-mobile@1x.png" alt="Худой кот" width="280" height="256" srcset="images/cat-after-mobile@2x.png 2x">
+        </picture>
+        <div class="example__range-bar">
+          <button class="example__range-toggle" aria-label="Переключение картинок с котами до и после" type="button"></button>
+        </div>
       </div>
     </section>
     <section class="address address--index">
