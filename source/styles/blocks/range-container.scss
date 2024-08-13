@@ -1,0 +1,9 @@
+.range-container {
+  @media (min-width: 768px) {
+    background-image: linear-gradient(#ffffff 29.5%, #f2f2f2 29.5%);
+  }
+
+  @media (min-width: 1440px) {
+    background: none;
+  }
+}

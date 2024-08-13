@@ -1,0 +1,38 @@
+.program {
+  background-color: #f2f2f2;
+}
+
+.program__title {
+  font-family: $oswald;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+.program__text {
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.program__link {
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 29.64px;
+  }
+}

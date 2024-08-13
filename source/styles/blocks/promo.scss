@@ -1,0 +1,36 @@
+.promo {
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85) 62.92%, #ffffff 37.08%);
+
+  @media (min-width: 768px) {
+    background: none;
+  }
+}
+
+.promo__slogan {
+  font-family: $oswald;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+}
+
+.promo__title {
+  color: #ffffff;
+
+  @media (min-width: 768px) {
+    color: #000000;
+  }
+}
+
+.promo__link {
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

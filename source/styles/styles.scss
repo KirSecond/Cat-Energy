@@ -1,7 +1,33 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/button.scss";
+@import "./blocks/visually-hidden.scss";
+@import "./blocks/page.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/title.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/programs.scss";
+@import "./blocks/program.scss";
+@import "./blocks/guides.scss";
+@import "./blocks/example.scss";
+@import "./blocks/range-container.scss";
+@import "./blocks/address.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/map.scss";
+@import "./blocks/social.scss";
+@import "./blocks/academy-link.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/show-more.scss";
+@import "./blocks/extra-catalog.scss";
+@import "./blocks/product-card-extra.scss";
+@import "./blocks/gift.scss";
+@import "./blocks/subscribe.scss";

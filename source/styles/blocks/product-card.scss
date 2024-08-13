@@ -1,0 +1,36 @@
+.product-card {
+  @media (min-width: 768px) {
+    background-image: linear-gradient(#ffffff 15.85%, #f2f2f2 15.85%);
+  }
+}
+
+.product-card__link {
+  text-decoration: none;
+}
+
+.product-card__title {
+  font-family: $oswald;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.product-card__list {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+

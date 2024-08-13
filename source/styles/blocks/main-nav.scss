@@ -1,0 +1,17 @@
+.main-nav__link {
+  font-family: $oswald;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (min-width: 1440px) {
+    color: #ffffff;
+  }
+}
