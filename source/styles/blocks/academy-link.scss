@@ -3,4 +3,12 @@
   line-height: 20px;
   color: #444444;
   text-decoration: none;
+
+  & .academy-link__logo {
+    color: #666666;
+  }
+
+  &:hover .academy-link__logo {
+    color: #68b738;
+  }
 }
