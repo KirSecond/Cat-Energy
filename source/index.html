@@ -20,8 +20,16 @@
         <span class="visually-hidden">Отобразить навигацию</span>
       </button>
       <a class="main-header__logo logo" href="index.html">
-        <img class="logo__image" src="#" width="200" height="200" alt="Логотип">
-        <img class="logo__text" src="#" width="200" height="200" alt="Текст логотипа">
+        <picture>
+          <source media="(min-width: 1440px)" type="image/svg+xml" srcset="images/logo-tablet.svg" width="70" height="59">
+          <source media="(min-width: 768px)" type="image/svg+xml" srcset="images/logo-tablet.svg" width="60" height="50">
+          <img class="logo__image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+        </picture>
+        <picture>
+          <source media="(min-width: 1440px)" type="image/svg+xml" srcset="images/logo-text-tablet.svg" width="118" height="21">
+          <source media="(min-width: 768px)" type="image/svg+xml" srcset="images/logo-text-tablet.svg" width="101" height="18">
+          <img class="logo__text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Текст логотипа">
+        </picture>
       </a>
       <ul class="main-nav__list">
         <li class="main-nav__item">
@@ -77,7 +85,7 @@
             кипятком и готово.</span>
           <span class="guides__number">2</span>
         </li>
-        <li class="guides__item guides__item--spoon">
+        <li class="guides__item guides__item--eat">
           <span class="guides__text">Замените один-два приема
             обычной еды на наше
             функциональное питание.</span>
@@ -133,7 +141,7 @@
   </main>
   <footer class="main-footer">
     <a class="main-footer__logo logo" href="index.html">
-      <img class="logo__text" src="#" width="200" height="200" alt="Текст логотипа">
+      <img class="logo__text" src="images/footer-logo.svg" width="128" height="24" alt="Текст логотипа">
     </a>
     <ul class="main-footer__social social">
       <li class="social__item">
@@ -154,7 +162,7 @@
     </ul>
     <a class="main-footer__academy-link academy-link" href="https://htmlacademy.ru/intensive/adaptive">
       <span class="academy-link__text">HTML Academy</span>
-      <img class="academy-link__logo" src="#" alt="Логотип академии" width="200" height="201">
+      <img class="academy-link__logo" src="images/html-academy-logo.svg" alt="Логотип академии" width="27" height="34">
     </a>
   </footer>
 </body>
