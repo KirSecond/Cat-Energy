@@ -1,7 +1,7 @@
 .promo {
   background-image: linear-gradient(rgba(104, 183, 56, 0.85) 62.92%, #ffffff 37.08%);
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     background: none;
   }
 }
@@ -13,7 +13,7 @@
   color: #ffffff;
   text-transform: uppercase;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
     color: #000000;
@@ -23,13 +23,13 @@
 .promo__title {
   color: #ffffff;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     color: #000000;
   }
 }
 
 .promo__link {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
   }

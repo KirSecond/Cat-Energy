@@ -6,12 +6,12 @@
   text-decoration: none;
   color: #000000;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: 24px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $tablet-width) {
     color: #ffffff;
   }
 }

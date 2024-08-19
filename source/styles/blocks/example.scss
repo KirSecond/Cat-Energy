@@ -1,11 +1,11 @@
 .example {
   background-color: #eaeaea;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     background-color: #ffffff;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     background-image: linear-gradient(#ffffff 136px, #f2f2f2 136px);
   }
 }
@@ -15,7 +15,7 @@
   line-height: 18px;
   color: #444444;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
   }
@@ -28,7 +28,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 37px;
   }
@@ -41,7 +41,7 @@
   text-align: center;
   color: #444444;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 14px;
     line-height: 14px;
   }
@@ -54,7 +54,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
   }

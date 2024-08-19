@@ -3,12 +3,12 @@
   font-size: 24px;
   line-height: 24px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
   }
