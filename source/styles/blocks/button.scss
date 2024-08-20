@@ -8,6 +8,14 @@
   color: #ffffff;
   text-decoration: none;
   border: none;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    min-height: 54px;
+  }
 }
 
 .button--show-more {

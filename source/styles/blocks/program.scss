@@ -1,5 +1,23 @@
 .program {
   background-color: #f2f2f2;
+  padding-top: 21px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 77px;
+    padding-left: 53px;
+    padding-bottom: 53px;
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 41px;
+    padding-left: 52px;
+    padding-bottom: 55px;
+    width: 570px;
+  }
 }
 
 .program__title {
@@ -7,20 +25,35 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 22px;
+  max-width: 227px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
+    max-width: 340px;
   }
 }
 
 .program__text {
   font-size: 14px;
   line-height: 18px;
+  max-width: 227px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #d9d9d9;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+    max-width: 340px;
+    border: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 457px;
   }
 }
 
@@ -30,9 +63,15 @@
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
+  max-width: 227px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 29.64px;
+    max-width: 340px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 457px;
   }
 }
