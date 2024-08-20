@@ -1,3 +1,21 @@
-body {
-  font-family: $lato;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  display: block;
+  margin-right: 56px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 14px;
+  }
+}
+
+.logo__text {
+  display: block;
 }

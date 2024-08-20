@@ -1,5 +1,12 @@
 .main-header--index {
-  @media (min-width: 1440px) {
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
     background-image: linear-gradient(to right, #ffffff 50%, rgba(104, 183, 56, 0.85) 50%);
+    margin-bottom: 82px;
   }
 }

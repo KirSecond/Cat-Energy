@@ -14,7 +14,7 @@
 </head>
 
 <body class="page__body">
-  <header class="main-header">
+  <header class="main-header container">
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Отобразить навигацию</span>
@@ -46,7 +46,7 @@
   </header>
   <main class="main-container">
     <h1 class="catalog-title title">Каталог продукции</h1>
-    <section class="catalog">
+    <section class="catalog container">
       <h2 class="visually-hidden">Список товаров</h2>
       <ul class="catalog__list">
         <li class="catalog__item product-card">
@@ -231,7 +231,7 @@
         </li>
       </ul>
     </section>
-    <section class="extra-catalog">
+    <section class="extra-catalog container">
       <h2 class="extra-catalog__title">Дополнительные товары</h2>
       <ul class="extra-catalog__list">
         <li class="extra-catalog__item product-card-extra">
@@ -268,11 +268,11 @@
         </li>
       </ul>
     </section>
-    <section class="gift">
+    <section class="gift container">
       <h2 class="visually-hidden">Описание акции</h2>
       <p class="gift__text">Закажите все и получите чехол для кота в подарок!</p>
     </section>
-    <section class="subscribe">
+    <section class="subscribe container">
       <h2 class="subscribe__title">Акции и новинки</h2>
       <p class="subscribe__text">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
       <form class="subscribe__form" action="https://echo.htmlacademy.ru" method="post" name="subscribe-form">
@@ -296,32 +296,34 @@
     </section>
   </main>
   <footer class="main-footer">
-    <a class="main-footer__logo logo" href="index.html">
-      <img class="logo__text" src="images/footer-logo.svg" width="128" height="24" alt="Текст логотипа">
-    </a>
-    <ul class="main-footer__social social">
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <span class="visually-hidden">Вконтакте</span>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <span class="visually-hidden">Youtube</span>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <span class="visually-hidden">Telegram</span>
-        </a>
-      </li>
-    </ul>
-    <a class="main-footer__academy-link academy-link" href="https://htmlacademy.ru/intensive/adaptive">
-      <span class="academy-link__text">HTML Academy</span>
-      <svg class="academy-link__logo" width="27" height="34">
-        <use href="icons/stack.svg#html-academy-logo"></use>
-      </svg>
-    </a>
+    <div class="main-footer__container container">
+      <a class="main-footer__logo logo" href="index.html">
+        <img class="logo__text" src="images/footer-logo.svg" width="128" height="24" alt="Текст логотипа">
+      </a>
+      <ul class="main-footer__social social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="visually-hidden">Youtube</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <span class="visually-hidden">Telegram</span>
+          </a>
+        </li>
+      </ul>
+      <a class="main-footer__academy-link academy-link" href="https://htmlacademy.ru/intensive/adaptive">
+        <span class="academy-link__text">HTML Academy</span>
+        <svg class="academy-link__logo" width="27" height="34">
+          <use href="icons/stack.svg#html-academy-logo"></use>
+        </svg>
+      </a>
+    </div>
   </footer>
 </body>
 
