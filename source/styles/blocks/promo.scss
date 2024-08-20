@@ -54,6 +54,7 @@
   text-align: center;
   margin-top: 27px;
   margin-bottom: 25px;
+  z-index: 1;
 
   @media (min-width: $tablet-width) {
     color: #000000;
@@ -87,6 +88,8 @@
 }
 
 .promo__link {
+  width: 100%;
+
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
